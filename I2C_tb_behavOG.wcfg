@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="I2C_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="I2C_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="181000000001fs"></ZoomEndTime>
+      <Cursor1Time time="181000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="142"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/I2C_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_tb/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_tb/addr_in" type="array">
+      <obj_property name="ElementShortName">addr_in[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_in[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_tb/dut/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_tb/SDA" type="logic">
+      <obj_property name="ElementShortName">SDA</obj_property>
+      <obj_property name="ObjectShortName">SDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_tb/SCL" type="logic">
+      <obj_property name="ElementShortName">SCL</obj_property>
+      <obj_property name="ObjectShortName">SCL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_tb/slave_ack_drive" type="logic">
+      <obj_property name="ElementShortName">slave_ack_drive</obj_property>
+      <obj_property name="ObjectShortName">slave_ack_drive</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_tb/dut/i2c_sda_en" type="logic">
+      <obj_property name="ElementShortName">i2c_sda_en</obj_property>
+      <obj_property name="ObjectShortName">i2c_sda_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_tb/dut/state" type="array">
+      <obj_property name="ElementShortName">state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">state[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
